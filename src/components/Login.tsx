@@ -53,7 +53,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
 			className="min-vh-100 d-flex align-items-center justify-content-center"
 			style={{
 				background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-				backgroundImage: 'url("/assets/imageBackground.jpg")',
+				backgroundImage: 'url("assets/imageBackground.jpg")',
 				backgroundSize: "cover",
 				backgroundPosition: "center",
 			}}>
