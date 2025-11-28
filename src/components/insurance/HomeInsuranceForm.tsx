@@ -394,7 +394,7 @@ const HomeInsuranceForm: React.FC<HomeInsuranceFormProps> = ({
 														getSelectedPlanDetails(values.coveragePlan)
 													) : (
 														<div className="text-center py-4">
-															<span style={{ fontSize: "3rem" }}>📋</span>
+															<span style={{ fontSize: "3rem" }}>🏠</span>
 															<p className="text-muted mt-2 mb-0">
 																Selecciona un plan para ver los detalles de
 																cobertura
