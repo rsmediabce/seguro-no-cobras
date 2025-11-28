@@ -1,0 +1,43 @@
+/* src/App.css */
+/* Estilos globales de la aplicación Seguro No Cobras */
+
+/* Reset básico */
+body, #root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+/* Estilos para las tarjetas de plan */
+.plan-card {
+  transition: all 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Tooltip personalizado */
+.tooltip-card {
+  background: white;
+  border: 1px solid #007bff;
+}
+
+.tooltip-card .card-header {
+  padding: 0.5rem 1rem;
+}
+
+.tooltip-card .card-body {
+  padding: 1rem;
+}
+
+/* Mejorar la apariencia de los radio buttons seleccionados */
+.form-check-input:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
