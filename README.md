@@ -2,6 +2,10 @@
 
 Un sistema completo de cotización de seguros desarrollado en React + TypeScript que permite a los usuarios simular y gestionar cotizaciones para 4 tipos diferentes de seguros.
 
+## 🧭 Sitio ONLINE
+- El sitio quedo subido y 100% funcional en githubpages
+- https://rsmediabce.github.io/seguro-no-cobras/
+
 ## ✨ Características Principales
 
 ### 🏠 **Seguro de Casa**
@@ -38,7 +42,7 @@ Un sistema completo de cotización de seguros desarrollado en React + TypeScript
 ### Instalación
 
 # Clonar el repositorio
-git clone [url-del-repositorio]
+git clone https://github.com/rsmediabce/seguro-no-cobras.git
 cd seguro-no-cobras
 
 # Instalar dependencias
@@ -54,6 +58,7 @@ npm run build
 Email: usuario@ejemplo.com / Contraseña: password123
 Email: admin@seguros.com / Contraseña: admin123  
 Email: test@test.com / Contraseña: test123
+Email: roger@telefax.com.ar / Contraseña: rogerCapo
 
 ## 🏗️ Estructura del Proyecto
 src/
